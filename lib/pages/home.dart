@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
       direction: DismissDirection.startToEnd,
       onDismissed: (direction) {
         print(direction);
-        //TODO llamar servicio de borrado
+        //TODO llamar servicio de borrado del backend
       },
       background: Container(
         color: Colors.red,
