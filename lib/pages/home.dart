@@ -174,8 +174,6 @@ class _HomePageState extends State<HomePage> {
     ];
 
     return Container(
-        width: double.infinity,
-        height: 300,
         child: PieChart(
           dataMap: dataMap,
           animationDuration: Duration(milliseconds: 800),
